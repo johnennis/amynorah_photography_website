@@ -1,0 +1,53 @@
+#copyright 
+{
+	font-size: x-small;
+	text-align: center;
+	color: #FFFFFF;
+	clear: left;  /* Clear to stop the wrapping, in other words start the footer on a new line */
+	padding: 20px;
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	left: 0px;
+	width: 25cm;
+	background-color: black;
+
+width: 100%;
+/*
+position:fixed;
+_position: absolute;
+    position: fixed;  The footer stays fixed in bottom of browser*/
+
+
+-------------------------------------------
+Start: URL Configuration link-visited-hover
+-------------------------------------------
+
+overflow: hidden;
+
+a:link 
+  {
+    color:FFF; 
+    text-decoration: none; /*none\underline*/
+    background-color: black;
+  }
+a:visited 
+  {
+	color: #FFF;
+	text-decoration: none; /*none\underline*/
+	background-color: black;
+  }
+a:active 
+  {
+	color: #FFF;
+	text-decoration: none; /*none\underline*/
+	background-color: #000;
+	font-weight: normal;
+  }
+
+-------------------------------------------
+-End: URL Configuration link-visited-hover-
+-------------------------------------------
+
+} 
